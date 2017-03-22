@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 from urllib.request import Request, urlopen
 from urllib.error import URLError
 import re
@@ -51,7 +51,7 @@ def downloadPages(ListOfPages):
     return
 
 def createFilename(title,part):
-    Filename=re.subn('(\\|\/|:|\*|\"|\|)',"",title)
+    Filename=re.subn('(\\|\/|:|\*|\"|\||;|,|/)',"",title)
     Filename=re.subn('(\.|\s)','_',Filename[0])
     fname=Filename[0]
     fname+='_osa_'+str(part)+'.pdf'
