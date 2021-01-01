@@ -16,4 +16,4 @@ URL  arkistoyksikön numero tai kokonainen url muotoa http://digi.narc.fi/digi/s
 tiedostolista on tekstitiedosto, jossa kullekkin riville laitetaan joko arkistointiyksikön numero tai url taikka generaattori, joka tuottaa numerolistan. Generaattori voi olla muotoa [aloitus,lopetus,askel], joka generoi listan numeroita joka alkaa aloituksesta ja päättyy lopetukseen (ei mukana) käyttäen annettua askelkokoa. Toinen muoto on aloitus-lopetus, tämä generoi listan aloituksesta lopetukseen (mukana) askelkoolla 1.
 
 
-Jos käytät docker-versiota niin muista bindata /download hakemisto jotta saat tiedostot.
+Jos käytät docker-versiota niin muista bindata /download hakemisto jotta saat tiedostot. Tämä ominaisuus on kurssia varten.
